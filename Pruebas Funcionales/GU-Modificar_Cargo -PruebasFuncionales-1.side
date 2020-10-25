@@ -1,0 +1,897 @@
+{
+  "id": "4f3c25a4-94cd-48d1-aed6-49ede850221f",
+  "version": "2.0",
+  "name": "GU-Modificar_Cargo -PruebasFuncionales-1",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "01b89d0c-a4bd-4314-b2d3-5085aade394f",
+    "name": "GU-Modificar_Cargo -PruebasFuncionales-1",
+    "commands": [{
+      "id": "b949b59b-6516-4037-bd0d-f854fa4533fb",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa18e082-56a4-4a45-81fe-1d773ab24152",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1531cb4b-9878-43af-a0b5-2fba5ff04756",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-arrow-wrapper",
+      "targets": [
+        ["css=.mat-select-arrow-wrapper", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-select/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6a0a1a-eacd-4a06-8b15-4bfbf1e0f6d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-0 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-0 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Capacitacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ab3be6-a68d-4620-8615-492e7cc2de36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-2 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-2 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47cff0c7-4803-4a83-a25f-9d10407454fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kegramajo"
+    }, {
+      "id": "766b4df3-e52e-4815-a528-6256105b964e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4467490-5a5f-4782-8983-dcb47c7af7ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd752e2-6476-4e0e-8cb0-e5fc5a5e6d3d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2843fe52-0ad9-40fc-8420-46d1e5e4c7cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "662ea1c6-e40c-48be-888b-48982c6c8b94",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-17 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-17 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-17']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be386350-98a9-4ae7-9b08-cd15accc3f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-472 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-472 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-472']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TAQUIMECANOGRAFA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1e341e0-6ecc-417a-8962-91b0027a44d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37111d06-81a1-44e2-90e5-720b816e7b9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "taquimecanografo"
+    }, {
+      "id": "2025424e-29ef-4234-b889-c3e5010997b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7eb0c1b-386f-4d76-9413-7a135ba07441",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f1306f-57c0-49dd-bbc6-01645194b236",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-18 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-18 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-18']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b337f183-ee62-4960-bc92-6a4299e9c859",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-493 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-493 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-493']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'LETRADO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f5c93c-505b-4320-aa6d-acccae479cfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e36d92a-cc34-47c8-b07d-8a8adfe7b8c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "letrado"
+    }, {
+      "id": "f30622e9-8b95-485a-b236-128009a17aa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1d30f0-4f12-4b22-aaae-f37b7779b38d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00753467-95b3-4180-8688-79629baf0365",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b99e36-8a25-4eea-8178-53860fca06e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-19 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-19 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-19']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f37522ab-428b-4c9b-9d3e-cbb0b196832f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-514 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-514 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-514']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SECRETARIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7696248-5d97-4b1f-997c-7b60c38ef181",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74fa58e-3335-4bfb-8a6c-52ac630de8c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "secretario"
+    }, {
+      "id": "52f742dd-890a-4225-9853-6524f77542c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd11005a-dbd2-4857-81a0-15fa1150eb62",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21f20e32-8866-4a95-b611-7bf4a0d78d34",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-20 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-20 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-20']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ca686f-e0c7-4bf2-bd6a-f931ba764292",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-535 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-535 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-535']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OFICIAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd297110-66fa-4d4e-961d-bb66a225177f",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d04755-3df0-430f-a59d-2735d1cd72cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "oficial"
+    }, {
+      "id": "c5695469-f682-493d-9d3d-e92147933074",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41995ff7-60aa-42b6-804c-5e9016372b36",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c79828-8b32-4f90-b2c4-c2d35b4426f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-21 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-21 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-21']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5181ad4-37a4-4f5b-8144-32883000fb96",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-556 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-556 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-556']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'NOTIFICADOR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd0a768-2508-40bb-8107-cd13d40b3367",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e6122a-196b-4c50-b012-39e41127be85",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "notificador"
+    }, {
+      "id": "9613735c-9643-487d-bed5-0f823afca634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "079561cb-49f2-4c08-8121-75cceb84665d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 > .mat-checkbox-layout",
+      "targets": [
+        ["css=#mat-checkbox-3 > .mat-checkbox-layout", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Modificar Cargo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed1acd7-95c8-41c4-9520-c2464f7b10f4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ng-tns-c4-74 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-74 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "203,16.074981689453125"
+    }, {
+      "id": "bfecb0aa-b692-423d-949c-aa67226b2258",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ng-tns-c4-74 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-74 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "203,16.074981689453125"
+    }, {
+      "id": "57d306e2-7165-4c12-b8f7-9ea3854c5ed7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ng-tns-c4-74 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-74 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": "203,16.074981689453125"
+    }, {
+      "id": "af4995ce-df26-4bcc-82ad-3e9dc73ac60c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-74 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-74 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d44e558b-4aca-42c0-b0ad-4cfc46b09790",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-577 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-577 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-577']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'COMISARIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f167e5-40f2-4b0c-a928-c44d3c22c09d",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18510055-2bdc-4a94-ac5b-45d76fcfa721",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "comisario"
+    }, {
+      "id": "2a3ec4ce-adbd-42a8-a6ff-24f9e1744356",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5c0cbf4-ebdc-42a7-a04a-8ade696e8e71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 > .mat-checkbox-layout",
+      "targets": [
+        ["css=#mat-checkbox-3 > .mat-checkbox-layout", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Modificar Cargo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b821818b-b0d5-42a3-b15e-1cc8c8582947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-78 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-78 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60074d92-2bbb-4bb3-b7c5-2c03fe32f171",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-598 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-598 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-598']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TRABAJADOR SOCIAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34286058-694e-47a2-9a03-7a2f02939f02",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c29f1a-788c-4e41-a995-619a5c65e2f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Trabajador Social"
+    }, {
+      "id": "5e12e8b0-e15f-4408-bf49-4e21b2e985df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f1713e-01ee-45e0-840b-f99646f26a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bdb1f31-db7e-4dd4-bfdc-dc091f12b8be",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-24 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-24 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-24']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0336b944-2d3b-4d22-98cf-93b5ce8a0515",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-619 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-619 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-619']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'PSICÓLOGO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac94654-6358-4928-af6b-567e0de55118",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57068c8a-b023-401f-8063-b10deea8818f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Psicologo"
+    }, {
+      "id": "4d5ed429-92de-4f05-a3b0-0cfdae345e81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "535702fb-8faa-42d9-a226-4c346d4647ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef1502b9-a6ce-4476-827a-a896fc14dd0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-25 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-25 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-25']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab74f4ee-c00d-4ebb-be7d-11da8002b5cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-640 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-640 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-640']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'PEDAGOGO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca2c09d7-ef1f-4945-aeec-0bef13e96795",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-88 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-88 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1281518-8b4a-4804-ba65-0f077c98866a",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "pedagogo"
+    }, {
+      "id": "65a30c35-a780-4d7e-8076-631e6ae93793",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3074544-a73b-43d6-ad55-42518e4731b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-3 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-3 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-3']/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6afde0-ade7-4ad9-88d2-12570b20571e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-26 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-26 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-26']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7e5116a-c8c8-4126-aed2-9a8eb0c5f33b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-661 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-661 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-661']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[10]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'JUEZ O MAGISTRADO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de0734c-8938-463f-a29c-851a756bf3f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45a3a596-a5b5-411a-8bc6-270068e6b23d",
+      "comment": "",
+      "command": "type",
+      "target": "id=sgtCargoMesa",
+      "targets": [
+        ["id=sgtCargoMesa", "id"],
+        ["css=#sgtCargoMesa", "css:finder"],
+        ["xpath=//input[@id='sgtCargoMesa']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Juez"
+    }, {
+      "id": "a22e8a2f-4275-4341-b0b1-1c6d184d0220",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cambiar Cargo Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "efa4ba6f-3d9c-4fe5-82f1-3249d7e1390e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01b89d0c-a4bd-4314-b2d3-5085aade394f"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

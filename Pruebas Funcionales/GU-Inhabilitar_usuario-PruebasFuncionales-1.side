@@ -1,0 +1,142 @@
+{
+  "id": "312080fc-c418-4571-8c46-ef9a56cdf704",
+  "version": "2.0",
+  "name": "GU-Inhabilitar_usuario-PruebasFuncionales-1",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "6018f31c-150a-4fe8-9898-b77b73aa9231",
+    "name": "GU-Inhabilitar_usuario-PruebasFuncionales-1",
+    "commands": [{
+      "id": "4a627dea-035d-4b07-90a8-054fe71538f5",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4acf0e26-2c48-4a7a-926d-c4502537fa5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "740a185b-37d7-4afe-97f8-3b2d24d0b59d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-placeholder",
+      "targets": [
+        ["css=.mat-select-placeholder", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione departamento...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3968b12f-41c4-4188-84d5-ff7759683d9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-0 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-0 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Capacitacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b256254c-e75c-4a73-8ca1-ae2ab401b66c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-2 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-2 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768723a4-f595-4cc2-845f-1ec4707d9cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-2 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-2 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcd7021b-1c68-48a7-aeb9-93efaf1ed3d6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-tns-c4-2 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-2 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e90461-f911-4fa7-a0c7-b6135d780986",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kegramajo"
+    }, {
+      "id": "1fe4defd-a34e-416f-af25-5b076b4bf7f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0278aa5-8d07-468b-a169-32855750f008",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-checkbox-2 .mat-checkbox-inner-container",
+      "targets": [
+        ["css=#mat-checkbox-2 .mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-2']/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f371f8a1-a53c-4587-ac89-4630f08b91e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > .btn",
+      "targets": [
+        ["css=.col-md-4 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Inhabilitar Usuario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d2e13f4-ba6e-4004-be68-ec7db2951039",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6018f31c-150a-4fe8-9898-b77b73aa9231"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

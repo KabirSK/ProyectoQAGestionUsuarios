@@ -1,0 +1,110 @@
+{
+  "id": "cd8f1908-bea2-4086-99c3-85f9eed4f7c4",
+  "version": "2.0",
+  "name": "BUSQUEDA DE USUARIO",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "d73abe5d-4588-441c-b859-ce3a22691286",
+    "name": "GU-PruebasFuncionales-2",
+    "commands": [{
+      "id": "e7dd625f-d5b9-42f0-811e-13dc342195bd",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b8fd65c-eb4d-4782-886c-994f6143f925",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59282964-d99c-4576-8f6a-f22f60910275",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-arrow",
+      "targets": [
+        ["css=.mat-select-arrow", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//mat-select/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5806ac4b-7fca-40db-a04a-5249c890f619",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-0 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-0 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Capacitacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd9f7a4-469f-4050-a156-87ad616f59cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d7739be-cfb5-4493-b67d-a5ce11ead4b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32af8524-e8cd-4daa-ad9a-3ca640c7906b",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kegramajo"
+    }, {
+      "id": "662751b4-ede2-49da-b95e-70d2a8598325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "61ccfd6e-5f89-4d6f-b5f1-ebd2fb1407f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d73abe5d-4588-441c-b859-ce3a22691286"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

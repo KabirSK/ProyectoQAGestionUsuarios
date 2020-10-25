@@ -1,0 +1,119 @@
+{
+  "id": "aeb44fb6-d6ed-4530-b62a-44c04dba9bcf",
+  "version": "2.0",
+  "name": "GU-Busqueda_usuario-PruebasFuncionales-2",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "b4d0eed8-5ad9-4b0b-9495-24b701eaaf18",
+    "name": "GU-Busqueda_usuario-PruebasFuncionales-2",
+    "commands": [{
+      "id": "b88440fd-cd83-4f50-8112-c29394cb1412",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8b6ff5d-a88e-4d43-9eee-fb2a78efd907",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1066",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e185b68e-61d0-4ea6-bdc6-a8ff228254b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-tab-label-0-0 > .mat-tab-label-content",
+      "targets": [
+        ["css=#mat-tab-label-0-0 > .mat-tab-label-content", "css:finder"],
+        ["xpath=//div[@id='mat-tab-label-0-0']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac27ab78-30d1-4288-9f88-d3dc9049f3e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-arrow-wrapper",
+      "targets": [
+        ["css=.mat-select-arrow-wrapper", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-select/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b391682-3858-4224-bab8-9dc93a3691b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-0 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-0 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Capacitacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7267b3e2-019b-4840-aa9b-5a64935cadd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-2 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-2 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9149efdc-2040-4b56-b6c6-bf63ca997927",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ed85d13-b66b-46e2-bb40-a0cf22ceaaac",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kegramajo"
+    }, {
+      "id": "fe63a76d-c17b-4089-8635-ce3d22c57b10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "22e3be7b-7edb-470c-b02e-3225ee9dd58f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b4d0eed8-5ad9-4b0b-9495-24b701eaaf18"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}

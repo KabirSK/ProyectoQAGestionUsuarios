@@ -1,0 +1,72 @@
+1. Base de datos
+	
+	A.
+	Esquema: SA
+	Servidor:
+		
+		url svn: https://SGT-TEST.oj.gob.gt/svn/Sistema Gestion Usuarios/
+		revision #: 2
+		tipo: DML
+		Servers:[
+			    ORA_SGTAV,
+				10.115.0.4,
+				ORA_SGTCM,
+				ORA_SGTCH,
+				dubai01,
+				ORA_SGTPR,
+				ORA_SGTESCC,
+				ORA_SGTESCT,
+				ORA_SGTHU,
+				ORA_SGTIZ,
+				ORA_SGTJA,
+				ORA_SGTNZ,
+				ORA_SGTMX,
+				ORA_SGTPE,
+				ORA_SGTQZ,
+				ORA_SGTQH,
+				ORA_SGTRE,
+				ORA_SGTSZ,
+				ORA_SGTSM,
+				ORA_SGTSR,
+				ORA_SGTJU,
+				ORA_SGTSL,
+				ORA_SGTSU,
+				ORA_SGTTT,
+				ora_sgtlb,
+				ORA_SGTVN,
+				ORA_SGTZA
+		]	
+		grant exec to rol_sgtdesarrollo to pkg_administracion_usuarios,
+		update sa.pkg_administracion_usuarios,
+
+		[observacion(es):
+		- si da problemas con algun servidor, continuar con la replicación de los otros.
+		]
+
+2. Despliegue(s)
+
+	A.
+	servidor: Containertest.oj.gob.gt
+	contenedor: BackEndUsuarios:5000
+	url svn: https://SGT-TEST.oj.gob.gt/svn/Sistema Gestion Usuarios/
+	revision #: 2
+	nombre aplicacion: Back End Sistema Gestion de Usuarios
+	
+	[observacion(es):
+		-El servidor es ubuntu linux, considar utilizar PUTTY Y FTP.
+		-La dirección del despliegue para el contenedor esta en: /usr/SGU/BackEndUsuarios
+		-Reiniciar el contenedor.
+	]	
+	
+	B.		
+	servidor: Containertest.oj.gob.gt
+	contenedor: UsuariosAPP:4201
+	url svn: https://SGT-TEST.oj.gob.gt/svn/Sistema Gestion Usuarios/
+	revision #: 2
+	nombre aplicacion: Back End Sistema Gestion de Usuarios
+	
+	[observacion(es):
+		-El servidor es ubuntu linux, considar utilizar PUTTY Y FTP.
+		-La dirección del despliegue para el contenedor esta en: /usr/SGU/FrontEndUsuarios
+		-Reiniciar el contenedor.
+	]	

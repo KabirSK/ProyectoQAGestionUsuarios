@@ -1,0 +1,74 @@
+{
+  "id": "92563a22-a992-4a5e-ab60-ccda5cecb755",
+  "version": "2.0",
+  "name": "GU-Busqueda_usuario-PruebasFuncionales-1",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "e6d0dc60-0c77-4955-b677-d4ffdd71c8b2",
+    "name": "GU-Busqueda_usuario-PruebasFuncionales-1",
+    "commands": [{
+      "id": "cbc9819f-9267-4a40-9adb-b654eb2c1fb8",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddf841cf-ae1b-40aa-80ef-db950380aa0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31b692b0-8239-4294-8627-6b0af94181a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc29cc37-817a-4305-a00b-1ccf3a487815",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuarioRed",
+      "targets": [
+        ["id=usuarioRed", "id"],
+        ["css=#usuarioRed", "css:finder"],
+        ["xpath=//input[@id='usuarioRed']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[2]/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kegramajo"
+    }, {
+      "id": "99f73966-d61e-411a-a953-a3ec271c71b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/div/div/div[2]/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aceptar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cad11eb8-c30f-4205-bfb2-eb9005d988f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6d0dc60-0c77-4955-b677-d4ffdd71c8b2"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

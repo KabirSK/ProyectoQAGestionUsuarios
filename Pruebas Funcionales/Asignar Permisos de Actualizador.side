@@ -1,0 +1,140 @@
+{
+  "id": "5045c0c5-b279-41c2-9a29-82c9fb1cc784",
+  "version": "2.0",
+  "name": "Asignar Permisos de Actualizador",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "a63e2975-cfdc-4777-bfaf-48fc6b6985f8",
+    "name": "Agregar Usuario Nuevo",
+    "commands": [{
+      "id": "f0bcfee9-1556-489c-80d7-17a87d9d4f8c",
+      "comment": "",
+      "command": "open",
+      "target": "/administracion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74c03996-4eda-43b4-a4c1-ed6d8a1be8fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c63b732-189b-46ee-ac08-d0a581ec7b7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-tab-label-0-2 > .mat-tab-label-content",
+      "targets": [
+        ["css=#mat-tab-label-0-2 > .mat-tab-label-content", "css:finder"],
+        ["xpath=//div[@id='mat-tab-label-0-2']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49219bb2-7cc7-4452-b5d3-4f682b62bcd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c4-15 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c4-15 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-2']/div/div[2]/form/div/mat-form-field/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9dadc5f-f685-45ca-bbfe-88718711bfd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-54 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-54 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-54']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Alta Verapaz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d1d973-0023-4e07-aa45-b5cf921fd5e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-6 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-6 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-6']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[3]/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9cf34b-0538-49b2-9597-87408a8ad574",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-6 .mat-select-arrow-wrapper",
+      "targets": [
+        ["css=#mat-select-6 .mat-select-arrow-wrapper", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-6']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[3]/mat-select/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57c556e-2fb0-4e6e-8179-95ae8adcfa9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-888",
+      "targets": [
+        ["id=mat-option-888", "id"],
+        ["css=#mat-option-888", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-888']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-1']/div/div/mat-option[6]", "xpath:idRelative"],
+        ["xpath=//mat-option[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06ee781f-8ea4-425f-94a0-4d947b0dc63b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-7 .mat-select-arrow-wrapper",
+      "targets": [
+        ["css=#mat-select-7 .mat-select-arrow-wrapper", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-7']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[3]/mat-select/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e856a36-2e20-4d7f-8e12-b85f9bd30c28",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-341 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-341 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-341']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'01081 - JUZGADO TERCERO DE PRIMERA INSTANCIA PENAL, NARCOACTIVIDAD Y DELITOS CONTRA EL AMBIENTE, GUATEMALA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46d04d45-35e3-451c-9322-ea54a39b0144",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-2']/div/div[2]/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Otorgar Permiso Actualizador')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6452a0b3-7229-4b2d-bc09-46d8c7c5c6b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a63e2975-cfdc-4777-bfaf-48fc6b6985f8"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

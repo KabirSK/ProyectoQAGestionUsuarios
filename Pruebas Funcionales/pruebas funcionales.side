@@ -1,0 +1,357 @@
+{
+  "id": "33cabe55-18bd-420c-b9da-38453c15d49c",
+  "version": "2.0",
+  "name": "pruebas funcionales",
+  "url": "http://containertest.oj.gob.gt:4201",
+  "tests": [{
+    "id": "c40b7161-aa04-4e5d-9c99-8154674d4438",
+    "name": "GU-PruebasFuncionales-1",
+    "commands": [{
+      "id": "a70fc06b-b6ce-475c-93c2-9cdd6928879b",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fce24b67-14a9-465c-a60c-580c6a3fb957",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0323299-3d68-417f-be54-6f20cab0abe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a6d7a97-7e94-45f0-849c-30d8e58513dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cadea49-4fff-4a6b-97d2-15f21f04a907",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kegramajo"
+    }, {
+      "id": "158196d4-425d-40df-ad54-ad0dc83944ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Kg"
+    }, {
+      "id": "8d7a7956-bea4-4e94-896d-8dd41efa4d5c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "60084bdd-1a4e-4442-8c94-30db7f0a9971",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Kg.2018"
+    }, {
+      "id": "eb60f5e8-d4c1-4b58-b2bd-a3a30254debf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-placeholder",
+      "targets": [
+        ["css=.mat-select-placeholder", "css:finder"],
+        ["xpath=//mat-select[@id='servidor']/div/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Selecciones departamento...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a7af02e-17f5-4ee4-80f2-97a8b5d39e06",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-0 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-0 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Capacitacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7186504-17cb-49f8-b001-95125daca78c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa496bb-8af9-4c3c-885e-89b4d1a96bc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe47420-d902-4c76-8b5f-3ff1042ca2db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2dd1cb-2373-4129-95c0-98a7b6bce6a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac35581-fdd6-4917-b253-8eb6bd2c08a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f881d794-3f6f-40ac-9220-ce1ebc24587c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55d6273-6304-4743-a2c4-b75c9b2126ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1e533ed-0afd-4909-9f87-4ba25e229a1c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b10e0ac4-17f6-4f20-a623-c5465d22ec43",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aaaff64-98ae-46dd-bf8a-c3b047167353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f057a1c9-4c62-4795-a2e3-2e25a5e8b4b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d413b1f6-9fc9-4954-ba05-fe56efd38384",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted > div > div",
+      "targets": [
+        ["css=.ng-star-inserted > div > div", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "125abdda-e967-4e8e-aead-80d755fd35c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e6d503-33f2-446c-a3f8-d0a0c967d727",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97dd68f-da46-4c3e-ac96-eaac487ab612",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75454b73-6c92-4865-8708-cd65b56fce5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d46f163-e42d-455b-afa4-d8be1490c988",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "120a8876-a17b-4238-8efe-9df3f033d8f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cb3589e-03d7-4e24-9419-572e55495b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b2ca9ae-38a8-491a-9449-f6feea5aa4f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c40b7161-aa04-4e5d-9c99-8154674d4438"]
+  }],
+  "urls": ["http://containertest.oj.gob.gt:4201/"],
+  "plugins": []
+}

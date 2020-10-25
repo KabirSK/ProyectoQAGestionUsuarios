@@ -1,0 +1,71 @@
+{
+  "id": "fbf6c6c4-cfea-4322-9244-12bffbe32f3a",
+  "version": "2.0",
+  "name": "GU-Login-GU-PruebasFuncionales-2",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "ce839bb1-b99c-4657-9eba-a3144e9fb771",
+    "name": "GU-Login-GU-PruebasFuncionales-2",
+    "commands": [{
+      "id": "d24e9233-3eed-4120-a1d1-807bdc76bab3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dfa1164-94b5-494d-bb55-e96ac72475dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e96611c6-c713-40a4-a8ab-f10ecdd97d99",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "KEGRAMAJO"
+    }, {
+      "id": "ca695317-7f40-4636-9c56-71e9559b690c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Kg.2018"
+    }, {
+      "id": "0d906d2e-bacc-46a5-9125-fef0b53a0f9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-raised-button",
+      "targets": [
+        ["css=.mat-raised-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ed5c5ea9-8e1c-4ef9-a65e-1abd9a2932a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce839bb1-b99c-4657-9eba-a3144e9fb771"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}
